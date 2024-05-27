@@ -1,2 +1,11 @@
 # algorithm
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+BFS, DFS
+완전탐색
+DP(Dynamic Programing)
+그래프
+이진 탐색
+정렬
+Greedy Algorithm
+Stack / Queue
+Heap sort
+해시
