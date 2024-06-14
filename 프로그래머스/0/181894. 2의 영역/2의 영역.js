@@ -13,4 +13,5 @@ function solution(arr) {
     }
         
     return res;
+    // start === -1 ? [-1] : arr.slice(start,end+1);
 }
