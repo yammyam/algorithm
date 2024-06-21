@@ -1,3 +1,4 @@
+// *** 1
 // function check(a, repeat, arr) {
 //     for (let i = a; i < a + repeat; i++) {
 //         if (arr[i] !== ")")
@@ -29,6 +30,7 @@
 
 //     return answer;
 // }
+// *** 2
 // const solution = (s)=>{
 //     let stack = [];
 //     for(let i = 0 ; i < s.length ; i++){
@@ -42,6 +44,8 @@
 //     }
 //     return stack.length === 0;
 // }
+
+// *** 3
 function solution(s)
 {
     let answer = true;
