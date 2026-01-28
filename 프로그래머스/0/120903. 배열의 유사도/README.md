@@ -1,10 +1,10 @@
 # [level 0] 배열의 유사도 - 120903 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120903?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120903) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.07 ms
+메모리: 33.5 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 01월 28일 23:19:54
+2026년 01월 28일 23:24:56
 
 ### 문제 설명
 
