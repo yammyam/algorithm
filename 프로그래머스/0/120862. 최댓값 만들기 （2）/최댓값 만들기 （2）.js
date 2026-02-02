@@ -3,5 +3,6 @@ const solution = (numbers) => {
     const l = numbers.length;
     const start  = numbers[0]*numbers[1];
     const end = numbers[l-1]*numbers[l-2];
-    return start>end ? start: end;
+    // return start>end ? start: end;
+    return Math.max(start, end);
 }
