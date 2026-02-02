@@ -4,5 +4,8 @@
 //     var answer = 0;
 //     return answer;
 // }
-const solution = n => n / gcd(6, n);
-const gcd = (a, b) => b ? gcd(b, a % b) : a;
+const solution = n => {
+    const gcd = (a, b) => b ? gcd(b, a % b) : a;
+    return n / gcd(6, n);
+    //LCM(6,10)=30 / 6/////6*10/GCD(6,10)/6 -> n/gcd(6,n)
+}
