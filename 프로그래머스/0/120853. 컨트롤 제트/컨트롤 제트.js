@@ -1,4 +1,4 @@
-function solution(s) {
+const solution = (s) => {
     let arr = s.split(" ")
     let answer = arr.map((item,i)=>{
         if(item === "Z")
