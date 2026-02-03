@@ -1,18 +1,13 @@
-
-function solution(my_string) {
-    const splited = my_string.split(" ");
-    
-    let ans = Number(splited[0]);
-    
-    splited.forEach((item, index) => {
-        if(item === "+"){
-            ans += Number(splited[index + 1]);
+const solution = (my_string) => {
+    let code = my_string.split(" ")
+    let answer = Number(code[0])
+    for(let i = 1; i<code.length;i++){
+        if(code[i]==="+"){
+            answer += Number(code[i+1])
         }
-        
-        if(item === "-"){
-            ans -= Number(splited[index + 1]);
+        else if(code[i]==="-"){
+            answer -= Number(code[i+1])
         }
-    })
-    
-    return ans;
+    }
+    return answer;
 }
