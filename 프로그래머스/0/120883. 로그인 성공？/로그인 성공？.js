@@ -1,4 +1,4 @@
-function solution(id_pw, db) {
+const solution = (id_pw, db) => {
     let [id,pw] = id_pw;
     let check = false;
     for(let item of db){
