@@ -1,19 +1,17 @@
-function solution(array) {
-    let answer = 0;
-    let res = new Array(1000);
-    res.fill(0);
-
-    for(let i = 0; i < array.length; i++) 
-        res[array[i]] += 1;
-
-    let max = Math.max(...res);
-    let count = 0;
-    for(let i = 0; i < res.length; i++) {
-        if(max === res[i]) {
-            answer = i;
-            count++;
-        }
-        if(count >= 2) return -1;
+const solution = (array) => {
+    let obj = {}
+    for(let i of array){
+        if(!obj[i])
+            obj[i] = 1
+        else
+            obj[i]++;
     }
-    return answer;
-}  
+    // obj만들어짐
+    let valueArr = Object.values(obj)
+    let max = Math.max(...valueArr)
+    if(valueArr.indexOf(max)!==valueArr.lastIndexOf(max))return -1
+    for(let i in obj){
+        if(obj[i] === max)
+            return Number(i);
+    }
+}
