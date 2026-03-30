@@ -1,4 +1,4 @@
-function solution(array, commands) {
+const solution = (array, commands) => {
     let answer = [];
     for(let w = 0 ; w < commands.length; w++){
         let [i,j,k] = commands[w];
